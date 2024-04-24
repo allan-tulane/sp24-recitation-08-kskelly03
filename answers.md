@@ -12,14 +12,13 @@ Place all written answers from `recitation-08.md` here for easier grading.
 
 - **1b)**
 
-$ W(E, V) = W(V) + W(E * ln(V)) \in O(V+ElnV)$
+W(E, V) = W(V) + W(E * ln(V)) = O(V+ElnV)
 
-$ S(E) \in O(E) $
+S(E) = O(E) 
 
 - **2b)**
 
-'''
-
+```
 def get_path(parents, destination):
 """
 Returns:
@@ -32,5 +31,4 @@ while current is not None:
     path += str(current)
     current = parents[current]
 return path[:0:-1]
-
-'''
+```
